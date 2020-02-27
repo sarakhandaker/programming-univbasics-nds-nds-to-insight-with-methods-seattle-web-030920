@@ -7,10 +7,11 @@ require 'directors_database'
 def gross_for_director(director_data)
   total=0
   rownum=0
-  while rownum< director_data[:movies].length
-  total+=director_data[:movies][rownum][:worldwide_gross]
-  rownum+=1
-end
+  binding pry
+  #while rownum< director_data[:movies].length
+  #total+=director_data[:movies][rownum][:worldwide_gross]
+  #rownum+=1
+#end
 return total
 end
 
