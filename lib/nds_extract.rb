@@ -23,7 +23,7 @@ def directors_totals(nds)
     hash={}
     row=0
   while row < nds.length
-  hash[nds[row][:name]]=gross_for_director(row)
+  hash[nds[row][:name]]=gross_for_director(nds[row])
   row+=1
   end
   result = hash
