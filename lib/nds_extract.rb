@@ -5,11 +5,12 @@ require 'directors_database'
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer using director_data as input
 def gross_for_director(director_data)
+  nds=director_data
   total=0
   rownum=0
   binding pry
-  #while rownum< director_data[:movies].length
-  #total+=director_data[:movies][rownum][:worldwide_gross]
+  #while rownum< nds[:movies].length
+  #total+=nds[:movies][rownum][:worldwide_gross]
   #rownum+=1
 #end
 return total
